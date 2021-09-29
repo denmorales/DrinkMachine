@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DrinkMachine.Core\DrinkMachine.Core.csproj" />
+    <ProjectReference Include="..\DrinkMachine.Database\DrinkMachine.Database.csproj" />
+  </ItemGroup>
+
+</Project>
